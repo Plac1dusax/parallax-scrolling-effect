@@ -8,7 +8,7 @@ function App() {
       <Parallax
         pages={2}
         style={{
-          width: "100vw"
+          width: "100vw",
         }}
       >
         <ParallaxLayer
@@ -29,7 +29,7 @@ function App() {
             justifyContent: "center",
             alignItems: "center",
             zIndex: "-1",
-            objectFit: "cover"
+            objectFit: "cover",
           }}
           offset={0}
         >
@@ -44,7 +44,7 @@ function App() {
             zIndex: "-1",
             fontSize: "40px",
             color: "white",
-            textShadow: "0 0 5px black"
+            textShadow: "0 0 5px black",
           }}
           offset={0}
         >
